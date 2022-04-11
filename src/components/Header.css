@@ -29,8 +29,9 @@
   color: black;
   font-weight: 500;
   font-size: 15px;
+  padding: 5px 10px;
+  border-radius: 10px;
 }
-
 .header__right {
   display: flex;
   align-items: center;
@@ -55,12 +56,5 @@
   position: relative;
   z-index: 2;
   cursor: pointer;
-}
-.header__menu > a {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: black;
-  font-weight: 500;
-  font-size: 15px;
-  position: relative;
+  margin-top: 4px;
 }

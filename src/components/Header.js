@@ -2,6 +2,7 @@ import React from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
 import { Close } from "@material-ui/icons";
+import { Menu } from "@material-ui/icons";
 
 function Header({ isMenuOpen, setIsMenuOpen }) {
   return (
@@ -34,7 +35,7 @@ function Header({ isMenuOpen, setIsMenuOpen }) {
           className="header__menu"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
-          {isMenuOpen ? <Close /> : <Link to="/" >Menu</Link>}
+          {isMenuOpen ? <Close /> : <Menu />}
         </div>
       </div>
     </div>
