@@ -31,7 +31,14 @@
   font-size: 15px;
   padding: 5px 10px;
   border-radius: 10px;
+  transition: all 0.33s;
 }
+
+.header__links > a:hover,
+.header__right > a:hover {
+  background: hsla(0, 0%, 50.2%, 0.125);
+}
+
 .header__right {
   display: flex;
   align-items: center;
@@ -44,8 +51,11 @@
   color: black;
   font-weight: 500;
   font-size: 15px;
+  padding: 5px 10px;
+  border-radius: 10px;
   z-index: 0;
   position: relative;
+  transition: all 0.33s;
 }
 
 .header__link--hidden {
